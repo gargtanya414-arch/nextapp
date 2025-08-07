@@ -20,15 +20,15 @@ export default function Section() {
     >
       <div className="absolute inset-0 bg-[rgba(46,116,103,0.8)]"></div>
 
-      <div className="relative z-10 container mx-auto flex flex-col-reverse md:flex-row justify-between items-center h-full px-4 md:px-8 py-8 md:py-0">
+      <div className="relative z-10 container mx-auto flex flex-col-reverse md:flex-row justify-center items-center h-full px-4 md:px-8 py-8 md:py-0">
         {/* Text Section */}
         <div className="text-white max-w-xl text-center md:text-left">
           <div className="flex flex-col items-center md:items-start mb-2">
-            <img
+            {/* <img
               src={images.lineImage}
               alt="Line"
               className="h-5 mb-2"
-            />
+            /> */}
             <p className="text-sm uppercase tracking-wide">
               Perfect Solution for your mind
             </p>
